@@ -94,7 +94,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="101" height="102"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eri-WM-5SA">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Eri-WM-5SA">
                                                     <rect key="frame" x="8" y="8" width="85" height="86"/>
                                                 </imageView>
                                             </subviews>
@@ -152,4 +152,7 @@
             <point key="canvasLocation" x="1023.2" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="placeholder" width="622" height="415"/>
+    </resources>
 </document>
