@@ -14,6 +14,7 @@
 		4D0870DE1FD14C55004AFF53 /* VirtualTouristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0870DD1FD14C55004AFF53 /* VirtualTouristUITests.swift */; };
 		4D0F1C631FDFC85F00D280B2 /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F1C611FDFC85E00D280B2 /* Photo+CoreDataClass.swift */; };
 		4D0F1C641FDFC85F00D280B2 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F1C621FDFC85F00D280B2 /* Photo+CoreDataProperties.swift */; };
+		4D67B8161FE3EAF500C71E0D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D67B8151FE3EAF500C71E0D /* Utils.swift */; };
 		4D78D9961FD816FD00044DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0870BD1FD14C55004AFF53 /* AppDelegate.swift */; };
 		4D78D9971FD816FD00044DD3 /* GCDQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0870EB1FD14F7A004AFF53 /* GCDQueue.swift */; };
 		4D78D9981FD816FD00044DD3 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE17FE11FD804CA0044323D /* CoreDataStack.swift */; };
@@ -62,6 +63,7 @@
 		4D0870EB1FD14F7A004AFF53 /* GCDQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDQueue.swift; sourceTree = "<group>"; };
 		4D0F1C611FDFC85E00D280B2 /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
 		4D0F1C621FDFC85F00D280B2 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4D67B8151FE3EAF500C71E0D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		4D933DD61FD8206E003523E8 /* LocationPin+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationPin+CoreDataClass.swift"; sourceTree = "<group>"; };
 		4D933DD71FD8206E003523E8 /* LocationPin+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationPin+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4DE17FDF1FD7FDBE0044323D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				4D0870BF1FD14C55004AFF53 /* TravelLocationsMapViewController.swift */,
 				4DEC0C711FD957D200BB0BC8 /* PhotoAlbumViewController.swift */,
 				4DEC0C731FD95F9F00BB0BC8 /* PhotoAlbumCollectionViewCell.swift */,
+				4D67B8151FE3EAF500C71E0D /* Utils.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				4D0F1C631FDFC85F00D280B2 /* Photo+CoreDataClass.swift in Sources */,
 				4D78D9961FD816FD00044DD3 /* AppDelegate.swift in Sources */,
 				4D78D9971FD816FD00044DD3 /* GCDQueue.swift in Sources */,
+				4D67B8161FE3EAF500C71E0D /* Utils.swift in Sources */,
 				4D933DD91FD8206E003523E8 /* LocationPin+CoreDataProperties.swift in Sources */,
 				4D78D9981FD816FD00044DD3 /* CoreDataStack.swift in Sources */,
 				4D78D9991FD816FD00044DD3 /* Model.xcdatamodeld in Sources */,

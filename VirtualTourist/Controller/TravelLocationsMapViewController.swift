@@ -121,7 +121,7 @@ class TravelLocationsMapViewController: UIViewController {
     override func setEditing(_ editing: Bool, animated: Bool) {
         super.setEditing(editing, animated: animated)
         if (editing) {
-            createAndShowAlert("Edit Mode", "Click on the Pins to delete them", "OK")
+            self.createAndShowAlert("Edit Mode", "Click on the Pins to delete them", "OK")
             self.navigationController?.navigationBar.barTintColor = UIColor(red: 196/255, green: 155/255, blue: 143/255, alpha: 0.3)
         } else {
             self.navigationController?.navigationBar.barTintColor = navigationBarColor
@@ -171,15 +171,6 @@ extension TravelLocationsMapViewController: MKMapViewDelegate {
             }
             
         }
-    }
-    
-    /**
-     Creates and shows simple.
-     */
-    func createAndShowAlert(_ title: String, _ message: String, _ acction: String) {
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: acction, style: .default) { _ in })
-        self.present(alert, animated: true){}
     }
 }
 
