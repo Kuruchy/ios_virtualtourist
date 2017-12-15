@@ -50,7 +50,7 @@ class PhotoAlbumViewController: UIViewController, UICollectionViewDataSource {
         super.viewDidLoad()
         
         // New Collection Button
-        newCollectionBarButton = UIBarButtonItem(image: UIImage(named: "icon_add"), style: .plain, target: self, action: #selector(PhotoAlbumViewController.onNewCollectionPressed))
+        newCollectionBarButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.refresh, target: self, action: #selector(PhotoAlbumViewController.onNewCollectionPressed))
         deleteImagesBarButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.trash, target: self, action: #selector(PhotoAlbumViewController.onDeletePressed))
         
         self.navigationItem.rightBarButtonItem  = newCollectionBarButton
@@ -68,8 +68,6 @@ class PhotoAlbumViewController: UIViewController, UICollectionViewDataSource {
         setUpCollectionViewFlowLayout()
 
         //Collection View
-        collectionView.delegate = self
-        collectionView.dataSource = self
         collectionView.allowsMultipleSelection = true
         
         //Add To Map
